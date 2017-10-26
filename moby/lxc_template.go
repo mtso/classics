@@ -4,6 +4,7 @@ import (
 	"text/template"
 )
 
+// Is "lxc" = linux container?
 const LxcTemplate = `
 # hostname
 {{if .Config.Hostname}}
